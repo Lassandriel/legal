@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Vaultwarden Sicherung</title>
+<style>
+  :root { --accent:#6366f1; }
+  body { font-family:'Segoe UI', system-ui, -apple-system, sans-serif; color:#211d33; line-height:1.6;
+         max-width:760px; margin:0 auto; padding:32px 20px 80px; background:#fff; }
+  h1 { font-size:28px; margin-bottom:4px; }
+  h2 { font-size:19px; margin-top:32px; color:#3a2d63; }
+  .updated { color:#6f6889; font-size:14px; margin-bottom:8px; }
+  a { color:var(--accent); }
+  ul { padding-left:20px; }
+  code, .ph { background:#f3f0fb; padding:1px 6px; border-radius:6px; }
+  footer { margin-top:40px; color:#a39db8; font-size:13px; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Application: <strong>Vaultwarden Sicherung</strong> · Last updated: 11 September 2026</p>
+
+  <p>“Vaultwarden Sicherung” is not a public service. It is a private backup tool running on a personal home
+  server, with exactly one user: the operator. This policy describes which Google data it accesses and why.</p>
+
+  <h2>1. Controller</h2>
+  <p>
+    JEAN ARI JÄGER<br>
+    Schillerstr. 6b<br>
+    76726 Germersheim, Germany<br>
+    Email: <a href="mailto:lassandriel@web.de">lassandriel@web.de</a>
+  </p>
+
+  <h2>2. What the application does</h2>
+  <p>Once a day, a backup file of a private password manager (Vaultwarden) is created and uploaded to a folder in
+  the operator’s <strong>own</strong> Google Drive. Backups older than 14 days are deleted from that folder. If
+  needed, a backup is restored from there.</p>
+
+  <h2>3. Access to Google Drive</h2>
+  <p>The application uses only the <code>drive.file</code> scope. It can therefore <strong>only see, create and
+  delete files it created itself</strong>. It has no access to any other files in Google Drive, and it does not
+  read contacts, emails or other account information.</p>
+
+  <h2>4. Contents of the backups</h2>
+  <p>Password manager entries are encrypted on the user’s device with their master password before they reach the
+  server. The backup file contains these entries only in encrypted form. Neither Google nor the server can read
+  them without the master password.</p>
+
+  <h2>5. No sharing</h2>
+  <p>No data is shared with third parties, sold, or used for advertising. Data moves only between the operator’s
+  home server and their own Google account. Storage in Google Drive is subject to Google’s privacy policy:
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+
+  <h2>6. Revoking access and deleting data</h2>
+  <p>Access can be revoked at any time at
+  <a href="https://myaccount.google.com/connections" target="_blank" rel="noopener">myaccount.google.com/connections</a>,
+  after which the application can no longer upload anything. Existing backups are in the “Vaultwarden-Sicherung”
+  folder in Google Drive and can be deleted there at any time.</p>
+
+  <h2>7. Your rights (GDPR)</h2>
+  <p>You have the right to access, rectification, erasure, restriction of processing, data portability and
+  objection. Send requests to the email address above.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>This policy may be updated if the application changes. The current version is always available at this address.</p>
+
+  <footer>© 2026 Vaultwarden Sicherung. This page contains no trackers.</footer>
+</body>
+</html>
